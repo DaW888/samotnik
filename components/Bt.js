@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 import {Text, TouchableOpacity} from 'react-native';
 import PropTypes from 'prop-types';
+import Colors from "../constants/Colors";
 
 
 class Bt extends Component {
 
     defaultStyle = {
         cont: {
-            backgroundColor: "#6110de",
+            backgroundColor: Colors.colorMain,
             justifyContent: 'center',
             alignItems: 'center',
             padding: 4,
@@ -20,7 +21,7 @@ class Bt extends Component {
         text: {
             fontSize: 24,
             fontFamily: 'Roboto',
-            color: '#fbffe9',
+            color: Colors.colorText,
         }
     }
 

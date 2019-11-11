@@ -18,6 +18,7 @@ class Field extends Component {
 
     pressFiled = () => {
         console.log('field', this.props.posX, this.props.posY, this.props.id);
+        this.props.setField(this.props.id, this.props.posX, this.props.posY);
     }
 
     render() {
